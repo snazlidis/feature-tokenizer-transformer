@@ -1,7 +1,7 @@
 # Feature Tokenizer Transformer
 
 A Tensorflow implementation of the **Feature Tokenizer Transformer (FT-Transformer)** for binary classification on tabular data. Based on the architecture proposed by Gorishniy
-et al. in [*Revisiting Deep Learning Models for Tabular Data*] (https://arxiv.org/abs/2106.11959)
+et al. in [*Revisiting Deep Learning Models for Tabular Data*](https://arxiv.org/abs/2106.11959)
 
 ---
 
