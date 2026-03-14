@@ -28,12 +28,13 @@ class TransformerEncoderBlock(tf.keras.layers.Layer):
 
     def call(self, x, training=False):
         # Multi-head attention block
-
+        # Post-attention layer normalization
         """ 
             attn_output = self.att(x, x, training=training)
             x = x + self.dropout2(ff_output, training=training)
             x = self.norm2(x)
         """
+        # Pre-attention layer normalization
         y = self.norm1(x)
         attn_out = self.att(y, y, training=training)
         x = x + self.dropout1(attn_out, training=training)
