@@ -39,5 +39,31 @@ Each **Transformer Encoder Block** follows the Pre-LayerNorm design:
 - Feed-Forward network (GELU activation)
 - Residual connections and dropout
 
+---
+
+## Requirements
+
+```
+tensorflow>=2.10
+numpy
+pandas
+```
+Install dependencies with:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Reference 
+
+```bibtex
+@article{gorishniy2021reviesiting,
+ title={Revisiting Deep Learning Models for Tabular Data},
+ author={Gorishniy, Yury and Rubachev, Ivan and Khrulkov, Valentin and Babenko, Artem},
+ journal={Advances in neural Information Processing Systems},
+ year={2021}
+}
+```
 
 
