@@ -55,6 +55,12 @@ pip install -r requirements.txt
 
 ---
 
+## Dataset
+
+The model was evaluated on the **NSL-KDD** dataset, a benchmark dataset for network intrusion detection. It contains a mix of numeric and categorical features representing network connection records, labeled as normal or attack traffic.
+
+- [NSL-KDD Dataset](https:/www.unb.ca/cic/datasets/nsl.html)
+
 ## Reference 
 
 ```bibtex
